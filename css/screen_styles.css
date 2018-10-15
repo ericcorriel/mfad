@@ -1,0 +1,1123 @@
+@charset "UTF-8";
+/* Global Content Formatting and Styles */
+
+
+
+/***********************************************************
+* 						color notes
+SVA Blue:			#00A6CE
+SVA Dark Grey:		#666666
+SVA Light Grey:		#DBDBDB
+VAP Header Black:	#3B3B3B 
+JobLogo Grey:		#F3F3F3
+************************************************************/
+
+
+/***********************************************************
+* 					  wrapper & line
+************************************************************/
+#wrapper {
+	margin: auto;
+	position: relative;
+	background-color: #fff;
+}
+
+.line {
+	clear: both;
+	height: 1px;
+	width: 100%;
+	background-color: #DBDBDB;
+}
+
+.extramargin {
+	margin-bottom: 30px;
+}
+
+
+
+/***********************************************************
+* 						font-family
+************************************************************/
+#index {
+font-family: "museo-sans",sans-serif;
+}
+.alert{
+	color: #b30a0a;
+}
+
+.highlight{
+	background-color: #FDFF92;
+}
+/***********************************************************
+* 					link & hover color
+************************************************************/
+a {
+    color: #00A6CE; /*SVA Blue*/
+    text-decoration: none;    
+}
+
+a:hover {
+	color: #666666; /*SVA Dark Grey*/
+}
+a:visited{
+	color: #4291a4;
+}
+
+
+/***********************************************************
+* 					font-weight & color
+************************************************************/
+#index h1 {
+	font-family: "pill-gothic-300mg",sans-serif;
+	color: #3B3B3B;
+	font-size: 6rem;
+	line-height: 1rem;
+}
+
+#introtext {
+	font-weight: 300;
+	opacity: 0.8;
+}
+
+
+#header h1{
+	font-family: "pill-gothic-300mg",sans-serif;
+	font-weight: 900;
+	padding-bottom: 10px;
+	margin: 20px 0px;
+	font-size: 7.2em;
+	
+}
+#header h1 a{
+	color: #3b3b3b;
+}
+
+
+h3 { font-weight: 500;
+	color: #3B3B3B ;
+	margin-bottom: 5px;
+}
+h4 {
+	margin-top: 0px;
+	padding-top: 0px;
+	font-weight:normal;
+}
+
+p {
+	font-weight:300;
+	color: #666666;
+}
+
+.light {
+	font-weight: 300;
+}
+
+#heavy {
+	font-weight: 500;
+}
+
+#footertext {
+	color: #666666;
+	font-weight: 300;
+}
+
+.pagename {
+	color: #00A6CE;
+	font-weight:500;
+}
+.subpagename{
+	font-weight: 300;
+	color: #666;
+	font-size:.8em;
+	position: relative;
+	top: -9px;
+}
+.pagecontent {
+	font-weight: 500;
+}
+
+.pagecontent ul li , .pagecontent ol li {
+	font-weight:300;
+	color: #666666;
+}
+.pagecontent ol li ul li, ul li ul li{
+	font-size:1em;
+}
+
+/*storefront page*/
+.pagecontent ul p{
+	margin: 0px;
+	font-style: italic;
+}
+
+.podioLinks {
+	font-weight: 300;
+}
+
+.activetext {
+	font-size:0.6em;
+}
+
+.number .stack {
+		color:#666666;
+}
+
+
+
+/***********************************************************
+* 						video
+************************************************************/
+#index  #vimeo {
+	clear:both;
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+#index  #vimeo iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-width:920px;
+	height: 100%;
+}
+
+
+/***********************************************************
+* 						footer
+************************************************************/
+#footer {
+	clear:both;
+	width:100%;
+}
+
+
+
+/***********************************************************
+* 				podio links (under request a job)
+************************************************************/
+#podioLinksWrapper{
+	margin-left: 4%;
+}
+
+.podioLinks {
+	width: 21%;
+	text-align: center;
+}
+
+.align {
+    display: inline-block;   
+}
+
+.vertical {
+    height:58px;
+    width:1px;
+    background-color:#DBDBDB;
+}
+.vertical.sansNumbers{
+	height:22px;
+}
+
+
+/***********************************************************
+* 					slideshow test
+************************************************************/
+
+
+#header {
+	clear: both;
+}
+
+#slideshow {
+	clear:both;
+	margin-top: -55px;
+	cursor: pointer;
+	height: 95px;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+/***********************************************************
+**********************DEVICES > 768*************************
+************************************************************/
+
+
+
+
+
+
+
+/***********************************************************
+* 					wrapper large
+************************************************************/
+#wrapper {
+	max-width: 920px;
+	padding: 20px;
+}
+
+.line {
+	margin-top:30px;
+}
+
+
+/***********************************************************
+* 					  header slideshow test
+************************************************************/
+#himage {
+	position: absolute;
+	top:-10px;
+	max-width: 920px;
+}
+
+/***********************************************************
+* 					header large
+************************************************************/
+
+
+#intro {
+	font-size: 1.52em;
+	line-height: 1.75em;
+}
+
+
+
+
+/***********************************************************
+* 					job & logo large
+************************************************************/
+.job {
+	float:left;
+	width: 48.5%;
+	height: auto;
+	background-image: url(../img/jobrequest.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+	margin-bottom: 30px;
+}
+.job.sansNumbers{
+	height:251px;
+}
+.jobtext {
+	opacity:0;
+	/*max-width: 345px;*/
+	max-width: 100%;
+	max-height: 192px;
+	padding:30px 50px;
+	background: #F3F3F3;
+	font-size: 1.3em;
+}
+
+.jobtext p, .logotext p{
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+.job:hover .jobtext{
+	opacity: 1;
+}
+
+.logo {
+	float:right;
+	width: 48.5%;
+	height: auto;
+	background-image: url(../img/getlogo.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+	margin-bottom: 30px;
+}
+
+.logotext {
+	opacity:0;
+	/*max-width: 345px;*/
+	max-height: 150px;
+	padding:50px;
+	background: #F3F3F3;
+	font-size: 1.3em;
+}
+
+.logo:hover .logotext{
+	opacity: 1;
+}
+
+
+
+/***********************************************************
+* 					footer large
+************************************************************/
+#footer {
+	max-width: 920px;
+	height:44px;
+	margin-top:13px;
+	}
+
+#footertext {
+	float: left;
+	font-size:0.8em;
+	line-height: 0.8em;
+	margin-left: 5px;
+}
+
+#footerlogo {
+	float: right;
+	margin-right: 5px;
+	margin-top: 15px;
+	width: 109px;
+	height: 48px;
+	background-image: url(../img/footerlogo_large.jpg);
+	background-repeat: no-repeat;
+}
+
+
+
+/***********************************************************
+* 						nav large
+************************************************************/
+#nav_wrapper {
+	background-color: #00A6CE;
+	position:fixed;
+	bottom:0px;
+	height: 40px;
+	text-align: left;
+	width: 75%;
+	max-width: 580px;
+}
+
+#nav ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	border-top-left-radius: 3px;
+}
+
+#nav ul ul{
+	background-color: #00A6CE;
+	display: none;
+	position: absolute;
+	border-top:0px;
+	border: 1px solid #00A6CE;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	margin-left: -1px;
+	border-bottom: 1px solid #5dbfd6;
+}
+
+#nav ul li {
+	display: inline-block;
+	margin:auto;
+	padding:9px 13px;
+}
+
+#nav ul ul li{
+	display: block;
+	padding:4px 9px;
+}
+
+#nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.25em;
+}
+
+#nav ul ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+
+#nav ul li a:hover{
+	color: #3B3B3B;
+	background-color: initial;
+}
+
+#nav ul ul li a:hover{
+	color: #3B3B3B;
+	background-color: initial;
+}
+
+#nav ul li:hover ul {
+	display:block;
+	bottom:100%;
+}
+
+
+
+/***********************************************************
+* 						pages large
+************************************************************/
+
+.page {
+	max-width: 920px;
+}
+
+.pagename {
+	float:left;
+	width:22.5%;
+	font-size:1.9em;
+	margin-top:25px;
+}
+
+.pagecontent {
+	float:right;
+	width:75%;
+	margin-bottom: 30px;
+}
+
+.storefrontButton{
+	color:#FFF; 
+	background-color:#00A6CE; 
+	font-size:28px; 
+	line-height:20px;
+	text-align:center;  
+	-moz-border-radius: 15px; 
+	border-radius: 15px; 
+	padding: 20px;
+	margin:30px 0px;
+}
+
+.page h3 {
+	font-size: 1.6em;
+			margin-top:2em;
+}
+
+.page h4{
+	font-size: 1.25em;
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+
+h4#center{
+	font-size: 1em;
+}
+
+.stack {
+	line-height: 0em;
+	margin-top: 2.53em;
+}
+
+.unstack {
+	line-height: auto;
+	/*margin-top:1.92em;*/
+}
+
+.page p { /*(same as .pagecontent ul li)*/
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin-top:0px;
+}
+
+.page ul{
+	margin-top: 0px;
+}
+
+.pagecontent ul li , .pagecontent ol li { /*(same as .page p)*/
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+.pagecontent ul li li , .pagecontent ol li li  { /*(same as .page p)*/
+	font-size: 1em;
+	line-height: 1.2em;
+}
+
+.number {
+	float:left;
+	width:120px;
+}
+
+iframe{
+	max-width: 100%;
+	max-height: 100%;
+}
+.img-border{
+	border: 1px solid #CCC;
+}
+
+
+.assignment-info{
+	display: none;
+}
+
+@media only screen and (min-width:769px) and (max-width:996px){
+	#header a{
+		font-size:12vmin;
+	}
+}
+
+
+
+
+
+/***********************************************************
+**********************DEVICES > 480 < 768 ********************
+************************************************************/
+
+
+
+@media only screen and (min-width:481px) and (max-width:768px){
+
+
+	/***********************************************************
+	* 					wrapper medium
+	************************************************************/
+	#wrapper {
+		max-width: 768px;
+		padding: 18px;
+	}
+
+	.line {
+		/*margin-top:25px;*/
+	}
+
+
+
+	/***********************************************************
+	* 					header medium
+	************************************************************/
+
+
+	#intro {
+		font-size: 1.25em;
+		line-height: 1.7em;
+	}
+
+	#header a{
+		/*font-size: 5.5em;*/
+		font-size:12vmin;
+	}
+
+
+
+	/***********************************************************
+	* 					job & logo medium
+	************************************************************/
+	.job {
+		background-color: #F3F3F3;
+		width: 100%;
+		/*background: url(../img/jobrequest_medium.jpg);*/
+		background-repeat: no-repeat;
+		background-position: top left;
+	}
+
+	.job.sansNumbers{
+		height:auto;
+	}
+	.jobtext {
+		opacity:1;
+		font-size: 1.2em;
+		background: #F3F3F3;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		padding:1px 50px;
+	}
+
+	.jobtext:before{
+		content: "Request a Job";
+	}
+
+	.logo {
+		background-color: #F3F3F3;
+		width: 100%;
+		/*background-image: url(../img/getlogo_medium.jpg);*/
+		background-repeat: no-repeat;
+	    background-position: top left;
+	}
+
+	.logotext {
+		opacity:1;
+		font-size: 1.2em;
+		background: #F3F3F3;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		padding:10px 50px;
+	}
+
+	.logotext:before{
+		content: "Get Logos & Stationery";
+	}
+
+	.podioLinks {
+		width: 14%;
+		text-align: center;
+		padding: 0px 2px;
+	}
+
+
+
+	/***********************************************************
+	* 					footer medium
+	************************************************************/
+	#footer {
+		max-width: 728x;
+		height:50px;
+		margin-top:20px;
+		}
+
+	#footertext {
+		clear: both;
+		font-size:0.7em;
+		margin-top:0px;
+		line-height: 0.5em;
+	}
+
+	#footerlogo {
+		width: 135px;
+		height: 38px;
+		margin-right: calc(100% - 395px);
+		margin-top: -25px;
+		background-image: url(../img/footerlogo_medium.jpg);
+		background-repeat: no-repeat;
+		background-position: left;
+	}
+
+
+
+	/***********************************************************
+	* 						nav medium
+	************************************************************/
+	#nav_wrapper {
+		background-color: #00A6CE;
+		position:fixed;
+		bottom:0px;
+		height: 40px;
+		text-align: left;
+		width: 100%;
+		max-width: 400px;
+	}
+
+	#nav ul {
+		list-style-type: none;
+		padding: 0px;
+		margin: 0px;
+		position: relative;
+		border-top-left-radius: 3px;
+	}
+
+	#nav ul ul{
+		background-color: #00A6CE;
+		display: none;
+		position: absolute;
+		border-top:0px;
+		border: 1px solid #00A6CE;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+		margin-left: -1px;
+		border-bottom: 1px solid #5dbfd6;
+	}
+
+	#nav ul li {
+		display: inline-block;
+		margin:0px 1.2px;
+		padding:11px 4.5px;
+	}
+
+	#nav ul ul li{
+		display: block;
+		padding:7px 9px;
+	}
+
+	#nav ul li a {
+		color: #fff;
+		text-decoration: none;
+		font-size: 1.05em;
+	}
+
+	#nav ul ul li a {
+		color: #fff;
+		text-decoration: none;
+		font-size: 1em;
+		line-height: 1.4em;
+	}
+
+	#nav ul li a:hover{
+		color: #3B3B3B;
+		background-color: initial;
+	}
+
+	#nav ul ul li a:hover{
+		color: #3B3B3B;
+		background-color: initial;
+	}
+
+	#nav ul li:hover ul {
+		display:block;
+		bottom:100%;
+	}
+
+
+
+	/***********************************************************
+	* 					pages medium
+	************************************************************/
+
+	.page {
+		max-width: 768px;
+	}
+
+	.pagename {
+		width: 100%;
+		font-size:1.65em;
+		margin-top:1.2em;
+	}
+
+	.pagecontent {
+		width: 100%;
+		margin-bottom: 25px;
+	}
+
+	.page h3 {
+		font-size: 1.35em;
+
+	}
+
+	.stack {
+		line-height: 0em;
+		margin-top: 1.8em;
+	}
+
+	.unstack {
+		line-height: auto;
+		
+	}
+
+	.page p { /*(same as .pagecontent ul li)*/
+		font-size: 1.1em;
+		line-height: 1.5em;
+	}
+
+	.pagecontent ul li , .pagecontent ol li{ /*(same as .page p)*/
+		font-size: 1.1em;
+		line-height: 1.5em;
+	}
+
+	.number {
+		float:left;
+		width:110px;
+	}
+
+	.storefrontButton{
+		width:100%;
+		max-width:690px;
+		padding: 20px 0px;
+	}
+
+	iframe{
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+}
+
+
+
+
+
+/**************************************************
+----------------DEVICES < 640----------------------
+**************************************************/
+
+@media only screen and (max-width:652px){
+	#header a{
+		/*font-size:4.5em;*/
+		font-size:20vmin;
+	}#header {
+		margin-bottom: 12px;
+	}
+}
+
+
+/***********************************************************
+**********************DEVICES < 480 ********************
+************************************************************/
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+	/***********************************************************
+	* 					wrapper small
+	************************************************************/
+	#wrapper {
+		max-width: 480px;
+		padding: 16px;
+	}
+
+	.line {
+		margin-top:20px;
+	}
+
+
+
+	/***********************************************************
+	* 					header small
+	************************************************************/
+
+
+	#intro {
+		font-size: 1.02em;
+		line-height: 1.65em;
+	}
+
+	#header a{
+		/*font-size: 3.5em;*/
+		font-size: 20vmin;
+	}
+
+
+
+	/***********************************************************
+	* 					job & logo small
+	************************************************************/
+	.job {
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: top left;
+		margin-top: 0px;
+	}
+
+	.jobtext:before{
+		content: "Request a Job";
+		font-weight: 700;
+	}
+
+	.job.sansNumbers{
+		height: auto;
+	}
+
+
+	.logo {
+		width: 100%;
+		background-repeat: no-repeat;
+	    background-position: top left;
+		margin-top: 0px;
+	}
+
+	.logotext:before{
+		content: "Get Stationery & Logos";
+		font-weight: 700;
+	}
+
+	.logotext, .jobtext {
+		opacity:1;
+		font-size: 1.1em;
+		background: #F3F3F3;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding:20px 25px 35px 25px;
+	}
+
+
+
+	/***********************************************************
+	* 					footer small
+	************************************************************/
+	#footer {
+		max-width: 480px;
+		height:40px;
+		margin-top:20px;
+		}
+
+	#footertext {
+		clear: both;
+		font-size:0.51em;
+		margin-top:0px;
+		margin-left: 0px;
+		line-height: 0.5em;
+	}
+
+	#footerlogo {
+		width: 90px;
+		height: 23px;
+		margin-right: calc(100% - 273px);
+		margin-top: -16px;
+		background-image: url(../img/footerlogo_small.jpg);
+		background-repeat: no-repeat;
+	}
+
+
+
+	/***********************************************************
+	* 						nav small
+	************************************************************/
+	#nav_wrapper {
+		background-color: #00A6CE;
+		position:fixed;
+		bottom:0px;
+		height: 35px;
+		text-align: left;
+		width: 100%;
+		max-width: 272px;
+	}
+
+	#nav ul {
+		list-style-type: none;
+		padding: 0px;
+		margin: 0px;
+		position: relative;
+		border-top-left-radius: 3px;
+	}
+
+	#nav ul ul{
+		background-color: #00A6CE;
+		display: none;
+		position: absolute;
+		border-top:0px;
+		border: 1px solid #00A6CE;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+		margin-left: -1px;
+		border-bottom: 1px solid #5dbfd6;
+	}
+
+	#nav ul li {
+		display: inline-block;
+
+		margin-left: 3px;
+		padding:7px 0px;
+	}
+
+	#nav ul ul li{
+		display: block;
+		padding:4px 3px;
+	}
+
+	#nav ul li a {
+		color: #fff;
+		text-decoration: none;
+		font-size: 0.75em;
+	}
+
+	#nav ul ul li a {
+		color: #fff;
+		text-decoration: none;
+		font-size: 0.75em;
+		line-height: 0.75em;
+	}
+
+	#nav ul li a:hover{
+		color: #3B3B3B;
+		background-color: initial;
+	}
+
+	#nav ul ul li a:hover{
+		color: #3B3B3B;
+		background-color: initial;
+	}
+
+	#nav ul li:hover ul {
+		display:block;
+		bottom:100%;
+	}
+
+
+
+	/***********************************************************
+	* 					pages small
+	************************************************************/
+	.page {
+		max-width: 480px;
+	}
+
+	.pagename {
+		width: 100%;
+		font-size:1.3em;
+		margin-top:1.2em;
+	}
+
+	.pagecontent {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.page h3 {
+		font-size: 1.05em;
+	}
+
+	.stack {
+		line-height: 0em;
+		margin-top: 2em;
+	}
+
+	.unstack {
+		line-height: auto;
+		margin-top:2em;
+	}
+
+	.page p { /*(same as .pagecontent ul li)*/
+		font-size: 0.87em;
+		line-height: 1.5em;
+	}
+
+	.pagecontent ul li , .pagecontent ol li{ /*(same as .page p)*/
+		font-size: 0.87em;
+		line-height: 1.5em;
+	}
+
+
+
+	.number {
+		float:left;
+		width:60px;
+	}
+
+	.storefrontButton{
+
+	}
+
+	iframe{
+		max-width: 100%;
+		max-height: 100%;
+		height: 241.5px;
+	}
+
+}
+
+	.pagecontent ul li ul li{
+		font-size: 1em;
+	}
+
+
+
+/**************************************************
+----------------DEVICES < 360----------------------
+**************************************************/
+
+/*@media only screen and (max-width:360px){
+	#header a{
+		font-size: 2.5em;
+	}
+}*/
+
+
+
+/**************************************************
+----------------DEVICES < 320----------------------
+**************************************************/
+
+@media only screen and (max-width:320px) {
+
+	#header a{
+		/*font-size: 2em;*/
+		font-size:10vmin;
+	}
+
+
+	iframe{
+		max-width: 100%;
+		max-height: 100%;
+		height: 152.77px;
+	}
+
+	.storefrontButton{
+		width: 272px;
+		padding: 10px 0px;
+		font-size: 1em;
+	}
+}
+
