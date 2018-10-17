@@ -1,6 +1,6 @@
 <?php 
-	if(empty($title)) $title="IxD";
-	if(empty($subtitle)) $subtitle="interaction design";
+	if(empty($title)) $title="UI<span style='font-size:.92em;display:inline-block;position:relative;top:-8px'>/</span>UX";
+	if(empty($subtitle)) $subtitle="";
  ?>
 <!DOCTYPE html>
 <html>
@@ -8,7 +8,7 @@
 
 
 <head>
-	<title>IXD | Interaction Content Design and Creation</title>
+	<title>UIUX | Interaction Design Workshop</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
 	<meta name="viewport" content="width-device-width, maximum-scale=1.0, minimum-scale-1.0, initial-scale-1.0" />
 	<meta name="description" content="Syllabus for BFA Design course: Interaction Content Creation and Design, taught at the School of Visual Arts" />
@@ -41,6 +41,6 @@
 										<!-- below: header "Visual Arts Press" -->	
 
 	<div id="header">
-		<h1><a href="/"><?php echo $title?><span style='font-size:18pt;font-weight:100;color:#666'>(<span style='color:#999'><?php echo $subtitle?></span>)</span></a></h1>
+		<h1 style='margin-bottom:-10px'><a href="/"><?php echo $title?></a></h1>
 	</div>
  	<div class="line"></div>
