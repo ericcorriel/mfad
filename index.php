@@ -16,8 +16,8 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 			<ul>
 				<li><a href='/2018-2019/week-1'>Week 1 : Workshop Introduction, Internet Pop Quiz I, Sketch I</a></li>
 				<li>Week 2 : Internet Pop Quiz II, Sketch II</a></li>
-				<li>Week 3 : How to Use a Computer, Prototyping for Developers I</li>
-				<li>Week 4 : Prototyping for Developers II</a></li>
+				<li>Week 3 : Web Ecosystem &amp; Technologies Overview, Prototyping for Developers I</li>
+				<li>Week 4 : How To Use A Computer, Prototyping for Developers II</a></li>
 			</ul>
 
 		</div>
