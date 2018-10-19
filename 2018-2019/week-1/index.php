@@ -79,7 +79,8 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 				<li>Note: an alternative way to get icons is by using an icon font such as <a href='https://fontawesome.com' target='_blank' >Font Awesome</a></li>
 				<li>Then we'll move on to the navigation buttons and then (pay attention!) the active states</li>
 				<li>Next is the body, and we'll just take two screenshots here</li>
-				<li>Now we'll build out a functioning prototype</li>
+				<li>Now we'll build out a functioning prototype...</li>
+				<li><span class='alert'><a href='apple.com.sketch.zip'>Sketch file here</a></span></li>
 			</ul>
 
 
