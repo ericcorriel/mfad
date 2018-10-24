@@ -62,7 +62,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 			<h3 class="unstack">Introduction to Sketch II</h3>
 			<ul>
 				<li>Note: this requires <a href='https://www.sketchapp.com/updates/' target='_blank' >Sketch 52</a>, which requires Mac OS X 10.13 High Sierra</li>
-				<li>Also note: You may have to purchase sketch, which for students <a href='https://www.sketchapp.com/store/edu/' target='_blank' >is a 50% discount</a>. Artists have to buy their canvases...</li></ul>
+				<li>Also note: You may have to purchase sketch, which for students <a href='https://www.sketchapp.com/store/edu/' target='_blank' >is a 50% discount</a>. Artists have to buy their canvases...</li>
 				<li>We're going to be looking at the following concepts in Sketch:
 					<ul>
 						<li>Type and layer style overrides</li>
