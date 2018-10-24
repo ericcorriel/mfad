@@ -24,7 +24,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 
 			<h3 class="unstack">(Non obvious) UI/UX Do's and Don'ts</h3>
 			<ul>
-				<li>Do's
+				<li><strong>Do's</strong>
 					<ul>
 						<li>If you're not sure, check to make sure that UI/UX element you're thinking of using is an established <a href='https://bradfrost.github.io/this-is-responsive/patterns.html' target='_blank'>responsive design pattern</a></li>
 						<li>For product websites, leading with a video or "XXX is..." is great for users and SEO. Examples: 
@@ -47,7 +47,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 					</ul>
 				</li>
 
-				<li>Don'ts
+				<li><strong>Don'ts</strong>
 					<ul>
 						<li>Don't always assume mobile-first is the way to go</li>
 						<li>Don't show/hide/rearrange content based on whether the user is on a mobile device or desktop</li>
