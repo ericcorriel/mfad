@@ -16,12 +16,22 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 				<li>Do's
 					<ul>
 						<li>If you're not sure, check to make sure that UI/UX element you're thinking of using is an established <a href='https://bradfrost.github.io/this-is-responsive/patterns.html' target='_blank'>responsive design pattern</a></li>
-						<li>For product websites, leading with a video or "XXX is..." is great for users and SEO. Examples: <a href='https://www.alfredapp.com/'>Alfred app</a>, <a href='https://github.com/' target='_blank' >Github.com</a>, <a href='http://principleformac.com/' target='_blank' >Principle</li>
+						<li>For product websites, leading with a video or "XXX is..." is great for users and SEO. Examples: 
+							<ul>
+								<li><a href='https://www.alfredapp.com/'>Alfred app</a></li>
+								<li><a href='https://github.com/' target='_blank' >Github.com</a></li>
+								<li><a href='http://principleformac.com/' target='_blank' >Principle</a></li>
+							</ul>
 						<li>Make sure each of your page titles is unique and the description field is filled out.</li>
 						<li>Make sure your search keywords are in your text, and the more prominently they're featured, the better. Take great care in how you word headlines. Text content at the top of the page is weighted more than text content at the bottom.</li>
 						<li>Logos almost always belong in the top left corner</li>
 						<li>Mobile hamburger menus are typically in the top right corner</li>
-						<li>Think about animation as a way to add grace and fun to your UI: <a href='http://www.gsd.harvard.edu/' target='_blank' >Harvard GSD</a>, <a href='http://2017.risdweekend.com/students/' target='_blank' >RISD Student Weekend</a>, <a href='http://www.beyondprison.us/' target='_blank' >Beyond Prison</a></li>
+						<li>Think about animation as a way to add grace and fun to your UI. Examples:
+							<ul>
+								<li><a href='http://www.gsd.harvard.edu/' target='_blank' >Harvard GSD</a></li>
+								<li><a href='http://2017.risdweekend.com/students/' target='_blank' >RISD Student Weekend</a></li>
+								<li><a href='http://www.beyondprison.us/' target='_blank' >Beyond Prison</a></li>
+							</ul>
 						<li>Test your site with people wholly unfamiliar with your product/service. Here's a sample <a href='https://docs.google.com/document/d/10W085RLPfqg3cCzif-lP2NhodpdaCRvA3oU1kTZYWJo/edit?usp=sharing' target='_blank' >UI/UX usability test</a>.</li>
 					</ul>
 				</li>
@@ -30,7 +40,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 					<ul>
 						<li>Don't always assume mobile-first is the way to go</li>
 						<li>Don't show/hide/rearrange content based on whether the user is on a mobile device or desktop</li>
-						<li>Don't have all buttons available if they're not immediately relevant. See Twitter's "<a href='https://twitter.com' target='_blank' >What's happening input box</a>")</li>
+						<li>Don't have all buttons available if they're not immediately relevant. See Twitter's "<a href='https://twitter.com' target='_blank' >What's happening input box</a>"</li>
 						<li>Don't forget about your email/newsletter strategy</li>
 						<li>Don't use jargon or abbreviations. On the web, your audience is everyone.</li>
 						<li>Don't ask users to sign up for something right away: <a href='https://hyperallergic.com/' target='_blank' >hyperallergic.com</a></li>
@@ -41,23 +51,26 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 			<h3 class="unstack">Introduction to Sketch II</h3>
 			<ul>
 				<li>Note this requires Sketch 52, which requires Mac OS X 10.13 High Sierra</li>
-				<li>Let's take a look at the <a href='../week-1/apple.com.sketch.zip'>Apple Sketch file</a> from last week</li>
-				<li>Nested symbols</li>
-				<li>Type and layer style overrides</li>
-				<li>Working with data</li>
-				<li>Typographical systems. Let's take a look at <a href='https://developer.apple.com/design/resources/' target='_blank' >Apple's iOS Sketch Library</a> and add it to our Library</li>
-				<li>Plugins
+				<li>Before we get started, let's explore typographical systems in Sketch by installing <a href='https://developer.apple.com/design/resources/' target='_blank' >Apple's iOS Sketch Library</a></li>
+				<li>Let's also install some of these plugins:
 					<ul>
 						<li><a href='https://github.com/DWilliames/paddy-sketch-plugin' target='_blank'>Paddy</a></li>
 						<li><a href='https://github.com/sonburn/symbol-organizer' target='_blank' >Symbol organizer</a></li>
+						<li><a href='https://github.com/lucaorio/sketch-styles-generator' target='_blank' >Styles Generator</a></li>
+						<li><a href='https://rodi01.github.io/RenameIt/' target='_blank' >RenameIt</a></li>
 						<li><a href='https://github.com/Iconscout/icondrop' target='_blank' >Icondrop</a></li>
 						<li><a href='https://sketchrunner.com/' target='_blank' >Runner</a></li>
-						<li><a href='https://animaapp.github.io/' target='_blank' >Auto Layout</a></li>
+						<li><a href='https://animaapp.github.io/' target='_blank' >Launchpad (auto layout)</a></li>
 						<li><a href='https://github.com/romannurik/Sketch-Contrast#readme' target='_blank' >Contrast</a></li>
 						<li><del><a href='https://github.com/keremciu/sketch-iconfont' target='_blank' >Icon font</a></del></li>
 						<li><a href='https://sketchapp.com/extensions/plugins/' target='_blank' >And so many more...</a></li>
 					</ul>
 				</li>
+				<li>Let's take a look at the <a href='../week-1/apple.com.sketch.zip'>Apple Sketch file</a> from last week</li>
+				<li>Device specific artboards</li>
+				<li>Nested symbols</li>
+				<li>Type and layer style overrides</li>
+				<li>Working with data</li>
 			</ul>
 
 			
@@ -73,7 +86,10 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 			<h4 class='alert'>Due Tuesday, 10/30 @ 11:59PM</h4>
 			<p>Submit a Sketch cloud URL to <a href='https://docs.google.com/forms/d/e/1FAIpQLSewZhl0tw7gifFKxlFmaJvmLHvaki8zMcxpyJwFGX52wm-wEg/viewform' target='_blank'>this Google Form</a>. </p>
 	
-	
+			<h3 class="unstack">Cool Links</h3>
+			<ul>
+				<li><a href='https://classic.qz.com/map-of-the-internet/' target='_blank' >Quartz: A map of the internet</a></li>
+			</ul>
 		</div>
 
 	</div>
