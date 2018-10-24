@@ -6,10 +6,10 @@ include($_SERVER['DOCUMENT_ROOT'] . "/vendor/autoload.php");
 
 $colNumWhereAssignemntsStarts = 5;
 $ignoreLastNColumns = 2;
-$assignmentSpreadsheet = "https://docs.google.com/spreadsheets/d/1iufejyPQ2f8DWaiKatKQ1u8X_6aSEJOc8AcQKhcAmbA/edit?usp=sharing"; //make sure sharing settings are set to anyone with link can view
+$assignmentSpreadsheet = "https://docs.google.com/spreadsheets/d/1YBr6LWdUQkpw7yGbldUhSJyBuLG7PFEwiEYfhNqZ6Nw/edit?usp=sharing"; //make sure sharing settings are set to anyone with link can view
 $arr = explode("/", $assignmentSpreadsheet);
 $assignmentSpreadsheetId = $arr[5];
-$admin = true;
+$admin = false;
 
 define('APPLICATION_NAME', $GoogleAppName);
 define('API_KEY', $GoogleAppAPIKey);
