@@ -96,11 +96,12 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 
 			
 			<h3 class="unstack">Sketch assignment</h3>
-			<h4>Deliverable: Publicly accessible Sketch Cloud URL</h4>
+			<h4>Deliverable: Sketch Library</h4>
 			<ul>
-				<li>Define type and layer styles for your website and implement those styles throughout your artboards</li>
-				<li>Install <a href='https://sketchrunner.com/' target='_blank' >Runner</a> and start integrating it into your workflow</li>
-				<li>Experiment with creating a library for your type and layer styles and importing it into a new Sketch document</li>
+				<li>Define type and layer styles in a separate sketch file, which will be your design library.</li>
+				<li>Import that sketch file as a library (Plugins --&gt; Manage Plugins --&gt; the Library tab)</li>
+				<li>Install <a href='https://sketchrunner.com/' target='_blank' >Runner</a> and start integrating it into your workflow (cmd + ')</li>
+				<li>Continue developing your prototypes with your library file. If you want to review your prototype or library in class, submit it in the form below</li>
 			</ul>
 
 			<h3 class="unstack">Submit your work</h3>
