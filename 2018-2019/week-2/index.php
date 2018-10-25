@@ -44,6 +44,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 								<li><a href='http://www.beyondprison.us/' target='_blank' >Beyond Prison</a></li>
 							</ul>
 						<li>Test your site with people wholly unfamiliar with your product/service. Here's a sample <a href='https://docs.google.com/document/d/10W085RLPfqg3cCzif-lP2NhodpdaCRvA3oU1kTZYWJo/edit?usp=sharing' target='_blank' >UI/UX usability test</a>.</li>
+						<li>Do think about how to design responsively</li>
 					</ul>
 				</li>
 
@@ -79,9 +80,9 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 					<ul>
 						<li><a href='https://sketchrunner.com/' target='_blank' >Runner</a></li>
 						<li><a href='https://github.com/DWilliames/paddy-sketch-plugin' target='_blank'>Paddy</a></li>
-						<li><a href='https://github.com/sonburn/symbol-organizer' target='_blank' >Symbol organizer</a></li>
+						<li><a href='https://github.com/sonburn/symbol-organizer' target='_blank' >Symbol Organizer</a></li>
 						<li><a href='https://github.com/lucaorio/sketch-styles-generator' target='_blank' >Styles Generator</a></li>
-						<li><a href='https://rodi01.github.io/RenameIt/' target='_blank' >RenameIt</a></li>
+						<li><a href='https://rodi01.github.io/RenameIt/' target='_blank' >Rename It</a></li>
 						<li><a href='https://github.com/aparajita/sketch-style-master/' target='_blank' >Style Master</a></li>
 						<li><a href='https://github.com/Iconscout/icondrop' target='_blank' >Icondrop</a></li>
 						<li><a href='https://animaapp.github.io/' target='_blank' >Launchpad (auto layout)</a></li>
