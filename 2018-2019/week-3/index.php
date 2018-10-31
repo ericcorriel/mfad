@@ -5,16 +5,10 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 	<div class="page">
 		<div class="pagename"><a href='/'>DSG-6051</a><br /><span class='subpagename'>Week 3</span></div>
 		<div class="pagecontent">
-			<h3 class="unstack">Questions from last week</h3>
+			
+			<h3 class="unstack">Assignment Submissions</h3>
 			<ul>
-				<li>GDPR, the Right to be Forgotten, and Backups...it's complicated, but <a href='https://www.theregister.co.uk/2018/05/31/backup_gdpr_analysis/' target='_blank' >here's a good article</a> that explains the issue</li>
-				<li>I was wondering how often this tool is used in the industry: <a href='https://marvelapp.com/' target='_blank' >Marvel App</a></li>
-			</ul>
-
-			<h3 class="unstack">Assignment Submittals</h3>
-			<ul>
-				<li>Tomoka Murakami :: <a href='https://sketch.cloud/s/lAr0v' target='_blank'>Sketch cloud link</a></li>
-				<li>Michael Enten :: <a href='https://sketch.cloud/s/0GGxe' target='_blank'>Sketch cloud link</a></li>
+				<li>None!  ¯\_(ツ)_/¯</li>
 			</ul>
 
 			<h3 class="unstack">Let's talk about the Internet II</h3>
@@ -116,8 +110,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 				</li>
 				<li><strong>Basics</strong>
 					<ul>
-						<li>Scrolling content</li>
-						<li>Menu animation</li>
+						<li>Scrolling, paging and dragging content</li>
 						<li>Components (accordion menus)</li>
 						<li>Hover states in navigation</li>
 						<li>Parallax scrolling</li>
