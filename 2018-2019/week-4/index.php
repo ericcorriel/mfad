@@ -27,6 +27,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 						<li>Reach for the mouse less with <a href='https://pilotmoon.com/popclip/' target='_blank' >Popclip</a>, <a href='https://pilotmoon.com/dwellclick/' target='_blank' >Dwell Click</a>, and <a href='https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en' target='_blank' >Vimium</a> for Chrome</li>
 						<li>Be more efficient when you do reach for the mouse with <a href='https://www.boastr.net/' target='_blank' >Better Touch Tool</a> or <a href='http://briankendall.net/xGestures/' target='_blank' >xGestures</a></li>
 						<li>Find recently modified files faster with  <a href='http://www.apparentsoft.com/trickster/' target='_blank' >Trickster</a> and <a href='http://www.stclairsoft.com/DefaultFolderX/' target='_blank' >Default Folder X</a></li>
+						<li>Automate any set of keyboard strokes with  <a href='https://www.keyboardmaestro.com/main/' target='_blank' >Keyboard Maestro</a></li>
 						<!-- <li><a href='http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_osx.html' target='_blank' >So many shortcuts</a> for Sublime</li> -->
 					</ul>
 				</li>
