@@ -21,6 +21,10 @@ include($_SERVER['DOCUMENT_ROOT'] . "/includes/formattop.php"); ?>
 						<li>Application switcher: cmd + tab</li>
 						<li>Use Finder better by adding applications to the top bar</li>
 						<li>Move the cursor better when editing text by using option and cmd + arrow keys</li>
+						<li>Enable Full Keyboard Access in the System Preferences &gt; Keyboard</li>
+						<li>Drag files from Finder into Save/Open dialog boxes</li>
+						<li>You can drag open files into other applications by click-dragging their icon</li>
+						<li>Cmd + click a file icon to see where it is and navigate to it's folder in Finder</li>
 						<li>Application launcher, such as <a href='https://www.obdev.at/products/launchbar/index.html' target='_blank' >Launchbar</a> or <a href='https://www.alfredapp.com/' target='_blank' >Alfred</a>, which can also be used for a setting application hotkeys</li>
 						<li>Clipboard manager, of which <a href='http://www.macworld.com/article/2887279/clipboard-managers-for-mac.html' target='_blank' >there are many</a>, though a good free one is <a href='http://www.clipmenu.com/' target='_blank' >ClipMenu</a></li>
 						<li>Text snippit manager, such as <a href='https://smilesoftware.com/textexpander' target='_blank' >Text Expander</a></li>
